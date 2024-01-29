@@ -1,4 +1,4 @@
-const searchBtn = document.querySelector('#search-form')
+const searchBtn = document.getElementById('search-button')
 const apiKey = 'eb31a46b5d14ea5586c11a6c70dfa7e9'
 const todayContainer = document.getElementById('today')
 const idCity = document.getElementById("search-input")
