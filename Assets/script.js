@@ -22,6 +22,7 @@ function currentWeather(city) {
     })
     .then(function (data) {
       console.log(data);
+
       const cityNameEl = document.createElement("h2");
       cityNameEl.textContent = data.name;
       todayContainer.append(cityNameEl);
@@ -31,8 +32,24 @@ function currentWeather(city) {
     $(".city-name").html("<h2>" + data.name + " Weather Details</h2>");
     $(".main-wind").text("Wind Speed: " + data.wind.speed);
     $(".main-humidity").text("Humidity: " + data.main.humidity);
+    getForecast(data.coord.lat, data.coord.lon)
     });
 }
-
+function getForecast(lat, lon) {
+  console.log(lat, lon);  
+//   var queryUrl = "https://api.openweathermap.org/data/2.5/forecast/daily?lat=" +
+//   lat + "&lon=" +
+//   lon + "&cnt="+ 5 + "&appid=" + apiKey
+var queryUrl = "https://api.openweathermap.org/data/2.5/forecast/daily?lat=44.34&lon=10.99&cnt=7&appid=" + apiKey
+  fetch(queryUrl)
+    .then(function (response) {
+      console.log(response);
+      return response.json();
+    })
+    .then(function (data) {
+      console.log(data);
+    })
+}
 searchForm.addEventListener("submit", start);
 console.log("testing");
+//https://api.openweathermap.org/data/2.5/forecast?q=
