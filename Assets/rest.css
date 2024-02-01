@@ -1,0 +1,15 @@
+.card-body{
+    background-image: url(https://media.istockphoto.com/id/1269437486/photo/thermometer-shows-the-temperature-is-hot.jpg?s=612x612&w=0&k=20&c=pFMzoCQ2RgAhb9kZK562kA22nCv2gYE3vvRNTLH-gc8=);
+object-fit: cover;
+background-attachment: fixed;
+background-size: 100% 100%;
+}
+
+.forecast-card{ 
+    background-image: url(https://knews.kathimerini.com.cy/assets/modules/wnp/articles/202308/15521/images/b_weather1_pexel.jpg);
+}
+#card1-5{
+    background-image: url(https://img.freepik.com/free-vector/realistic-blue-sky-with-white-clouds-vector-illustration-summer-day-cloudscape-transparent-fog-smoke-texture-condensate-evaporation-gas-emission-air-abstract-background-weather-forecast_107791-22460.jpg?w=2000&t=st=1706750578~exp=1706751178~hmac=d95769c2bfea4c7cceed230cacc265e3633776354b1b0d61f3d7c52c687512b3);
+    
+}
+
