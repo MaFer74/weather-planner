@@ -7,7 +7,7 @@ This week's challenge was to build a Weather Dashboard that could show a 5 day f
 To achieve this, I requested an API in open weather and we used, the set API for a 16 day forecast and converted into 5, using epoch converter to extract an approximate time to represent the weather for that day, and then implemented in a for loop that will deploy the 5 days.
 In this project I had the opportunity to explore the use od dynamic JS and learned about backticks and template expression.
 
-![alt text](assets/images/Screenshot%202024-02-02%20at%2021.31.40.png)
+![alt text](Assets/images/Screenshot%202024-02-02%20at%2021.31.40.png)
 
 ## Table of Contents 
 
